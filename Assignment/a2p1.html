@@ -122,16 +122,25 @@
       </article>
 
       <div class="further-info">
-        <!-- insert images with srcsets and sizes -->
+        
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img src="../images/assignment2/firefox_logo-only_RGB.png" srcset="../images/assignment2/firefox_logo-only_RGB400.png, 400w, ../images/assignment2/firefox_logo-only_RGB120.png 120w" sizes="(max-width: 500px)400px, 120px" alt="firefox logo">
+          <img src="../images/assignment2/firefox_logo-only_RGB.png" alt="Download Firefox"
+              srcset="../images/assignment2/firefox_logo-only_RGB400.png 400w, 
+                      ../images/assignment2/firefox_logo-only_RGB120.png 120w" 
+                      sizes="(max-width: 5000px) 400px, 120px">
 
         </a>
         <a href="https://www.mozilla.org/">
-          <img src="../images/assignment2/mozilla-dinosaur-head.png" srcset="../images/assignment2/mozilla-dinosaur-head400.png, 400w, ../images/assignment2/mozilla-dinosaur-head400.png 120w" sizes="(max-width:5000px) 400px, 120px" alt="mozilla-dinosaur-head">
+          <img src="../images/assignment2/mozilla-dinosaur-head.png" alt="mozilla-dinosaur-head" 
+              srcset="../images/assignment2/mozilla-dinosaur-head400.png 400w, 
+                      ../images/assignment2/mozilla-dinosaur-head400.png 120w" 
+                      sizes="(max-width:5000px) 400px, 120px">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img src="../images/assignment2/firefox-addons.jpg" srcset="../images/assignment2/firefox-addons400.jpg, 400w, ../images/assignment2/firefox-addons120.jpg 120w" sizes="(max-width:5000px) 400px, 120px" alt="firefox-addons">
+          <img src="../images/assignment2/firefox-addons.jpg" alt="firefox-addons"
+              srcset="../images/assignment2/firefox-addons400.jpg 400w, 
+                      ../images/assignment2/firefox-addons120.jpg 120w" 
+                      sizes="(max-width:5000px) 400px, 120px">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
             <img src="../images/assignment2/mdn.svg" alt="">
@@ -140,7 +149,11 @@
       </div>
 
       <div class="red-panda">
-        <img src="../images/assignment2/red-panda.jpg" alt="">
+        <picture>
+          <source media="(max-width: 600px )" srcset="../images/assignment2/red-panda-portrait-small.jpg">
+          <img src="../images/assignment2/red-panda-landscape.jpg" alt="red-panda">
+        </picture>
+
       </div>
 
     </main>
