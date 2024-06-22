@@ -1,0 +1,31 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cool-box {
+  display: flex;
+  padding: 50px;
+  width: 200px;
+  height: 150px;
+  background-color: #ff0000; /* Base color */
+  color: #fff; /* Contrasting text color */
+  font-size: 0.6rem; /* Around 17-18px computed */
+  /* Calculated as: 16px (base) * 1.1 = 17.6px */
+  border-radius: 10px; /* Subtle border radius */
+  border: 1px solid #cc0000; /* Slightly darker than the base color */
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0,0,0,0.2) 100%);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 1), 
+              inset 2px 2px 4px rgb(255, 255, 255), 
+              inset -2px -2px 6px rgba(0, 0, 0, 0.7);
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000000; /* Black text shadow */
+}
